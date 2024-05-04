@@ -1,0 +1,23 @@
+{
+  "author": [
+    "hollowstrawberry"
+  ],
+  "min_bot_version": "3.5.0",
+  "description": "用斜線指令及 tag 在 Gelbooru 上搜尋圖片",
+  "hidden": false,
+  "install_msg": "💗 __**Booru**__\n**這個 cog 允許在被標記為 NSFW 的頻道中發布 NSFW 內容**```Cog 已安裝. 安裝步驟：\n1. 用 [p]load gelbooru 來載入。\n2. 用 [p]slash enablecog booru 來開啟斜線指令功能。\n3. 用 [p]slash sync 來同步斜線指令。\n4. Y你可能需要重新啟動 Discord 才能看到斜線指令。\n5. (可選) 你可以透過 [p]set api gelbooru api_key,YOUR_API_KEY 來設定 gelbooru api_key 和 user_id /// [p]set api gelbooru user_id,YOUR_USER_ID```",
+  "required_cogs": {},
+  "requirements": [
+    "expiringdict"
+  ],
+  "short": "用斜線指令及 tag 在 Gelbooru 上搜尋圖片",
+  "end_user_data_statement": "這個 cog 會快取用戶搜索，但不會蒐集個人資訊。",
+  "tags": [
+    "crab",
+    "booru",
+    "anime",
+    "fun",
+    "images",
+    "imageboard"
+  ]
+}
