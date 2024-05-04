@@ -131,7 +131,7 @@ def make_result_single(jishoResult):
         reading = to_romaji(str(kana))
     is_common = None
     if jishoResult.get("is_common", None) is True:
-        is_common = "Common"
+        is_common = "常用單字"
     jlpt = None
     if len(jishoResult.get("jlpt", [])) > 0:
         jlpt = str(", ".join(jishoResult.get("jlpt", [])))
@@ -144,7 +144,7 @@ def make_result_single(jishoResult):
         for k, v in jishoResult.get("attribution", {}).items():
             if v is not False:
                 attrs.append(k)
-        attribution = "Results from "+", ".join(attrs)
+        attribution = "資料來自 "+", ".join(attrs)
 
     # Senses
     senses = []
@@ -158,10 +158,10 @@ def make_result_single(jishoResult):
             english_definitions = str("; ".join(sense.get("english_definitions", [])))
         sense_tags = None
         if len(sense.get("tags", [])) > 0:
-            sense_tags = "*Tags: " + str(", ".join(sense.get("tags", []))) + "*"
+            sense_tags = "*標籤: " + str(", ".join(sense.get("tags", []))) + "*"
         see_also = None
         if len(sense.get("see_also", [])) > 0:
-            see_also = "*See also: " + str(", ".join(sense.get("see_also", []))) + "*"
+            see_also = "*同義詞: " + str(", ".join(sense.get("see_also", []))) + "*"
         links = None
         if len(sense.get("links", [])) > 0:
             links = ""
