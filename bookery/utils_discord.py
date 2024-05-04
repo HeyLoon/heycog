@@ -40,17 +40,17 @@ def embed_google_books(book_result, embed_colour: discord.Colour=None):
         description
     ])))
     if authors:
-        e.add_field(name="Author(s)", value=authors, inline=True)
+        e.add_field(name="作者", value=authors, inline=True)
     if publisher:
-        e.add_field(name="Publisher", value=publisher, inline=True)
+        e.add_field(name="出版社", value=publisher, inline=True)
     if published_date:
-        e.add_field(name="Published", value=published_date, inline=True)
+        e.add_field(name="出版日期", value=published_date, inline=True)
     if categories:
-        e.add_field(name="Categories", value=categories, inline=True)
+        e.add_field(name="類型", value=categories, inline=True)
     if page_count:
-        e.add_field(name="Pages", value=page_count, inline=True)
+        e.add_field(name="頁數", value=page_count, inline=True)
     if maturity_rating:
-        e.add_field(name="Age Rating", value=maturity_rating, inline=True)
+        e.add_field(name="內容分級", value=maturity_rating, inline=True)
     e.set_thumbnail(url=thumbnail)
 
     return e
