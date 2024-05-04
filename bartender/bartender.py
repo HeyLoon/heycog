@@ -11,7 +11,7 @@ class Bartender(commands.Cog):
         self.config = Config.get_conf(self, identifier=822775204043948063)
         default_guild = {
             "bartenderDrinks": {
-              "拿鐵": {
+              "latte": {
                 "intro": "",
                 "body": "",
                 "images": [
@@ -20,7 +20,7 @@ class Bartender(commands.Cog):
                 "emoji": "☕",
                 "footer": "享受優質熱咖啡！",
               },
-              "珍珠奶茶": {
+              "boba": {
                 "intro": "非常好珍珠奶茶",
                 "body": "",
                 "images": [
