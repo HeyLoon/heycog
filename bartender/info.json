@@ -1,0 +1,21 @@
+{
+  "author": [
+    "coffeebank"
+  ],
+  "install_msg": "感謝安裝, 希望你會喜歡 :) 想隨時了解重大變更，你可能需要加入我的 Discord。想要找文件、Discord 等，請來我的網站：https://coffeebank.github.io/coffee-cogs/bartender/",
+  "name": "Bartender",
+  "short": "來點一些優質飲品！",
+  "requirements": [],
+  "description": "跟你的成員來點一些優質飲品！",
+  "permissions": [],
+  "end_user_data_statement": "這個 cog 不蒐集使用者資訊。",
+  "tags": [
+    "bar",
+    "drinks",
+    "soda",
+    "cocktail",
+    "cafe",
+    "coffee"
+  ],
+  "min_bot_version": "3.5.0"
+}
