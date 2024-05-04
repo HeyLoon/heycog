@@ -1,0 +1,22 @@
+{
+  "author": [
+    "hollowstrawberry"
+  ],
+  "min_bot_version": "3.5.0",
+  "description": "支援 YouTube 和播放清單功能的斜線指令版音樂播放 cog 。",
+  "hidden": false,
+  "install_msg": "🎵 __**AudioSlash**__ ```Cog 已安裝. 安裝步驟:\n1. 用 [p]load audioslash 來載入。\n2. 用 [p]slash enablecog audioslash 來開啟斜線指令功能。\n3. 用 [p]slash sync 來同步斜線指令。\n4. 你可能需要重新啟動 Discord 才能看到斜線指令。```",
+  "required_cogs": {},
+  "requirements": [
+    "youtube-search-python"
+  ],
+  "short": "支援 YouTube 和播放清單功能的斜線指令版音樂播放 cog 。",
+  "end_user_data_statement": "這個 cog 不蒐集使用者資訊。",
+  "tags": [
+    "crab",
+    "voice",
+    "audio",
+    "music",
+    "slash"
+  ]
+}
