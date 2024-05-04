@@ -11,7 +11,7 @@ class Bartender(commands.Cog):
         self.config = Config.get_conf(self, identifier=822775204043948063)
         default_guild = {
             "bartenderDrinks": {
-              "latte": {
+              "拿鐵": {
                 "intro": "",
                 "body": "",
                 "images": [
@@ -20,7 +20,7 @@ class Bartender(commands.Cog):
                 "emoji": "☕",
                 "footer": "享受優質熱咖啡！",
               },
-              "boba": {
+              "珍珠奶茶": {
                 "intro": "非常好珍珠奶茶",
                 "body": "",
                 "images": [
@@ -60,7 +60,7 @@ class Bartender(commands.Cog):
             drinkbody = ""
 
         drinkemoji = drinks[drink]["emoji"]
-        desc = f"**{ctx.author.mention}** serves **{user}** a {drinkintro} {drinkemoji}{drinkbody}"
+        desc = f"**{ctx.author.mention}** 給了 **{user}** 一杯 {drinkintro} {drinkemoji}{drinkbody}"
         e = discord.Embed(color=botcolor, description=desc)
         e.set_thumbnail(url=drinks[drink]["images"][0])
         e.set_footer(text=drinks[drink]["footer"])
