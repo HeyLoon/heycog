@@ -1,0 +1,24 @@
+{
+  "author": [
+    "Fixator10"
+  ],
+  "install_msg": "感謝安裝！",
+  "short": "這個 cog 顯示與 Minecraft 相關的數據",
+  "description": "這個 cog 顯示與 Minecraft 相關的數據，包括：\n - 玩家的過往暱稱\n - 通過暱稱獲取 Skin\n - 獲取 Minecraft 的服務器的狀態",
+  "tags": [
+    "minecraft",
+    "game"
+  ],
+  "min_python_version": [
+    3,
+    8,
+    0
+  ],
+  "max_bot_version": "3.4.99",
+  "requirements": [
+    "tabulate",
+    "wcwidth",
+    "mcstatus>=9.3.1"
+  ],
+  "end_user_data_statement": "這個 cog 不會持久地儲存用戶資料。"
+}
