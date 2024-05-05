@@ -1,0 +1,14 @@
+{
+  "author": [
+    "Neuro Assassin"
+  ],
+  "install_msg": "感謝下載！",
+  "name": "twenty",
+  "short": "讓你在 Discord 裡玩2048 ！",
+  "description": "這個 cog 讓你可以在 Discord 的文字頻道裡玩 2048 ！",
+  "tags": [
+    "fun"
+  ],
+  "requirements": [],
+  "hidden": false
+}
